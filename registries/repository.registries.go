@@ -1,9 +1,10 @@
 package registries
 
 import (
-	"dmp-training/configs"
-	"dmp-training/src/domain/repositories/mysql"
 	"sync"
+
+	"github.com/muflikhandimasd/golang-basic-clean/configs"
+	"github.com/muflikhandimasd/golang-basic-clean/src/domain/repositories/mysql"
 )
 
 type repositoryRegistry struct {

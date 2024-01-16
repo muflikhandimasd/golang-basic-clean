@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"dmp-training/src/domain/usecases"
-	userRequests "dmp-training/src/http/requests/userRequests"
-	"dmp-training/src/http/responses"
 	"github.com/gofiber/fiber/v2"
+	"github.com/muflikhandimasd/golang-basic-clean/src/domain/usecases"
+	userRequests "github.com/muflikhandimasd/golang-basic-clean/src/http/requests/userRequests"
+	"github.com/muflikhandimasd/golang-basic-clean/src/http/responses"
 )
 
 type AuthController interface {

@@ -1,10 +1,11 @@
 package main
 
 import (
-	"dmp-training/configs"
-	"dmp-training/src"
 	"sync"
 	"time"
+
+	"github.com/muflikhandimasd/golang-basic-clean/configs"
+	"github.com/muflikhandimasd/golang-basic-clean/src"
 )
 
 var cfg configs.Config

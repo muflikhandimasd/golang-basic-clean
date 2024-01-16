@@ -2,15 +2,16 @@ package usecases
 
 import (
 	"context"
-	"dmp-training/configs"
-	"dmp-training/constants"
-	"dmp-training/helpers"
-	"dmp-training/src/domain/repositories/mysql"
-	"dmp-training/src/http/dtos/userDtos"
-	userRequests "dmp-training/src/http/requests/userRequests"
-	"github.com/gofiber/fiber/v2"
-	"github.com/sirupsen/logrus"
 	"time"
+
+	"github.com/gofiber/fiber/v2"
+	"github.com/muflikhandimasd/golang-basic-clean/configs"
+	"github.com/muflikhandimasd/golang-basic-clean/constants"
+	"github.com/muflikhandimasd/golang-basic-clean/helpers"
+	"github.com/muflikhandimasd/golang-basic-clean/src/domain/repositories/mysql"
+	"github.com/muflikhandimasd/golang-basic-clean/src/http/dtos/userDtos"
+	userRequests "github.com/muflikhandimasd/golang-basic-clean/src/http/requests/userRequests"
+	"github.com/sirupsen/logrus"
 )
 
 type UserUseCase interface {

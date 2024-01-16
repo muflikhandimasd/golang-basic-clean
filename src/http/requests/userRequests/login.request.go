@@ -1,8 +1,8 @@
 package userRequests
 
 import (
-	"dmp-training/constants"
 	"github.com/gofiber/fiber/v2"
+	"github.com/muflikhandimasd/golang-basic-clean/constants"
 )
 
 type LoginRequest struct {

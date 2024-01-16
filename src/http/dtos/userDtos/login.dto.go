@@ -1,7 +1,7 @@
 package userDtos
 
 import (
-	userModels "dmp-training/models"
+	userModels "github.com/muflikhandimasd/golang-basic-clean/models"
 )
 
 type LoginDto struct {

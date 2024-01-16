@@ -1,9 +1,10 @@
 package registries
 
 import (
-	"dmp-training/configs"
-	"dmp-training/src/domain/usecases"
 	"sync"
+
+	"github.com/muflikhandimasd/golang-basic-clean/configs"
+	"github.com/muflikhandimasd/golang-basic-clean/src/domain/usecases"
 )
 
 type usecaseRegistry struct {

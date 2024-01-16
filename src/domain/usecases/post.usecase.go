@@ -2,15 +2,16 @@ package usecases
 
 import (
 	"context"
-	"dmp-training/configs"
-	"dmp-training/constants"
-	"dmp-training/models"
-	"dmp-training/src/domain/repositories/mysql"
-	"dmp-training/src/http/requests/postRequests"
 	"fmt"
-	"github.com/gofiber/fiber/v2"
-	"github.com/sirupsen/logrus"
 	"time"
+
+	"github.com/gofiber/fiber/v2"
+	"github.com/muflikhandimasd/golang-basic-clean/configs"
+	"github.com/muflikhandimasd/golang-basic-clean/constants"
+	"github.com/muflikhandimasd/golang-basic-clean/models"
+	"github.com/muflikhandimasd/golang-basic-clean/src/domain/repositories/mysql"
+	"github.com/muflikhandimasd/golang-basic-clean/src/http/requests/postRequests"
+	"github.com/sirupsen/logrus"
 )
 
 type PostUseCase interface {

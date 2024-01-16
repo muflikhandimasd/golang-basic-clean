@@ -1,13 +1,14 @@
 package src
 
 import (
-	"dmp-training/configs"
-	"dmp-training/registries"
-	"dmp-training/src/http/controllers"
-	"dmp-training/src/http/middlewares"
+	"log"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"log"
+	"github.com/muflikhandimasd/golang-basic-clean/configs"
+	"github.com/muflikhandimasd/golang-basic-clean/registries"
+	"github.com/muflikhandimasd/golang-basic-clean/src/http/controllers"
+	"github.com/muflikhandimasd/golang-basic-clean/src/http/middlewares"
 )
 
 type server struct {

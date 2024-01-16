@@ -3,9 +3,10 @@ package mysql
 import (
 	"context"
 	"database/sql"
-	"dmp-training/configs"
-	"dmp-training/database"
-	"dmp-training/models"
+
+	"github.com/muflikhandimasd/golang-basic-clean/configs"
+	"github.com/muflikhandimasd/golang-basic-clean/database"
+	"github.com/muflikhandimasd/golang-basic-clean/models"
 	"github.com/sirupsen/logrus"
 )
 

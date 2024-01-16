@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	"dmp-training/src/domain/usecases"
-	"dmp-training/src/http/middlewares"
-	"dmp-training/src/http/requests/postRequests"
-	"dmp-training/src/http/responses"
 	"github.com/gofiber/fiber/v2"
+	"github.com/muflikhandimasd/golang-basic-clean/src/domain/usecases"
+	"github.com/muflikhandimasd/golang-basic-clean/src/http/middlewares"
+	"github.com/muflikhandimasd/golang-basic-clean/src/http/requests/postRequests"
+	"github.com/muflikhandimasd/golang-basic-clean/src/http/responses"
 )
 
 type PostController interface {

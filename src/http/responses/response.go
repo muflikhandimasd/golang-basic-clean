@@ -1,8 +1,8 @@
 package responses
 
 import (
-	"dmp-training/constants"
 	"github.com/gofiber/fiber/v2"
+	"github.com/muflikhandimasd/golang-basic-clean/constants"
 )
 
 func ResponseConverter(code int, c *fiber.Ctx, data interface{}, msg string) error {

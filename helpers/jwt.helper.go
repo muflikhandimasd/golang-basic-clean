@@ -1,14 +1,15 @@
 package helpers
 
 import (
-	"dmp-training/constants"
 	"errors"
-	"github.com/gofiber/fiber/v2"
-	"github.com/golang-jwt/jwt/v5"
-	"github.com/joho/godotenv"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/gofiber/fiber/v2"
+	"github.com/golang-jwt/jwt/v5"
+	"github.com/joho/godotenv"
+	"github.com/muflikhandimasd/golang-basic-clean/constants"
 )
 
 type ClaimJWT struct {

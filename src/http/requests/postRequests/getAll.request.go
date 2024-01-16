@@ -1,9 +1,9 @@
 package postRequests
 
 import (
-	"dmp-training/constants"
-	"dmp-training/helpers"
 	"github.com/gofiber/fiber/v2"
+	"github.com/muflikhandimasd/golang-basic-clean/constants"
+	"github.com/muflikhandimasd/golang-basic-clean/helpers"
 )
 
 type GetAllPostRequest struct {
